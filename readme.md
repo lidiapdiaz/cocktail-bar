@@ -1,6 +1,6 @@
 # Cocktail Bar
 
-This is my first page made with X, it has been fun.
+This is my first page made with SASS, it has been fun.
 I hope you enjoy them, see ya!
 
 (っ＾▿＾)۶🍸🌟🍺٩(˘◡˘ )
