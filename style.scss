@@ -1,10 +1,14 @@
 // FONTE PARA OS HEADERS
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+//FONTE PARA O LOGO
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
 
 //VARIABLES
 $primary-color: #ddbebc;
 $secondary-color: #596641;
 $terciary-color: #f1f1f1;
+$logo-color: #182e37;
 $font-color: #aaa;
 $box-shadow: 0 2px 10px 0 rgba(0,0,0,0.6);
 $limit:10;
@@ -94,7 +98,7 @@ $unit:8px; /*unidade para calcular marxes, paddings*/
     width: 1280px;
     padding: 50px;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-    background-image: url(BG.png);
+    background-image: url(img/BG.png);
     background-size: 100% 100%;
 }
 
@@ -181,3 +185,17 @@ header{
     }
 }
 
+//Diseño logo
+a.logo {
+    font-family: 'Ephesis';
+    color: $logo-color;
+    font-size: 1.7em;
+    letter-spacing: 0.1em;
+    border-bottom: 10px double $logo-color;
+  }
+  
+  .material-symbols-outlined{
+    font-size: 1.1em!important;
+    position: relative;
+    top: 10px;
+  } 

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
 /*unidade para calcular marxes, paddings*/
 .btn.btn-cta {
   background-color: #ddbebc;
@@ -172,7 +173,7 @@
   width: 1280px;
   padding: 50px;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-  background-image: url(BG.png);
+  background-image: url(img/BG.png);
   background-size: 100% 100%;
 }
 
@@ -260,4 +261,18 @@ header nav {
 }
 .row .col-70 {
   width: 70%;
+}
+
+a.logo {
+  font-family: "Ephesis";
+  color: #182e37;
+  font-size: 1.7em;
+  letter-spacing: 0.1em;
+  border-bottom: 10px double #182e37;
+}
+
+.material-symbols-outlined {
+  font-size: 1.1em !important;
+  position: relative;
+  top: 10px;
 }/*# sourceMappingURL=style.css.map */
